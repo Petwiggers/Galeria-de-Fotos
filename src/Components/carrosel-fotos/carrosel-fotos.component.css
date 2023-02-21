@@ -1,0 +1,21 @@
+.jumbotron{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.flexBotao{
+  display: flex;
+  justify-content: center;
+}
+
+h3{
+  text-align: center;
+  color: white;
+}
+img{
+  border-radius: 30px;
+}
+

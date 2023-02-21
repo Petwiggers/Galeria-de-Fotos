@@ -1,0 +1,14 @@
+<div class="jumbotron">
+  <h3>{{title}}</h3>
+ 
+  <div>
+    <img [src]="fotos[index]" alt="Imagem De Naruto" style="height: 500px; width: 500px;">
+    <h3>Foto {{index + 1}} de {{fotos.length}}</h3>
+    <div class="flexBotao">
+      <button (click)="voltarParaPrimeira()" [disabled]="index == 0">Inicio</button>
+      <button (click)="irParaAnterior()" [disabled]="index == 0">&lt;-- Anterior</button>
+      <button (click)="irParaProxima()"[disabled]="index == fotos.length -1">Próxima --&gt;</button>
+      <button (click)="vaiParaUltima()"[disabled]="index == fotos.length -1">Fim</button>
+    </div>
+  </div>
+</div>
